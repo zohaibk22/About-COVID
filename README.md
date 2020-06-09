@@ -52,17 +52,13 @@ WireFrame: https://wireframe.cc/pbKTLi
 
 ## Project Schedule
 
-This schedule will be used to keep track of your progress throughout the week and align with our expectations.  
-
-You are **responsible** for scheduling time with your squad to seek approval for each deliverable by the end of the corresponding day, excluding `Saturday` and `Sunday`.
-
 |  Day | Deliverable | Status
 |---|---| ---|
-|June 8| Project Prompt | Incomplete
-|June 9| Wireframes / Priority Matrix / Timeframes | Incomplete
-|June 10| Core Application Structure (HTML, CSS, etc.) | Incomplete
-|June 11| Initial Clickable Model  | Incomplete
-|June 12| MVP | Incomplete
+|June 8| Project Prompt/Project Proposal | Incomplete
+|June 9| Front-End Core Design (HTML/CSS) | Incomplete
+|June 10| Code in Event Listener for Symptoms/Remedies. Implement Map| Incomplete
+|June 11| Code Event Listener for Map to display COVID-19 stastics from API| Incomplete
+|June 12| Make Finalize touchs. Complete MVP. Work on POSTMVP | Incomplete
 |June 15| Present | Incomplete
 
 ## Priority Matrix
