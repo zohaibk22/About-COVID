@@ -48,7 +48,7 @@ WireFrame: https://wireframe.cc/pbKTLi
 - Incorperate a graph functionality to display COVID-19 statistics over time. (Requires a second APU)
 - Utlize an API to quote the experiences of COVID-19 patients
 - Media Query for mobile app.
-
+![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
 ## Project Schedule
 
 |  Day | Deliverable | Status
@@ -61,7 +61,7 @@ WireFrame: https://wireframe.cc/pbKTLi
 |June 15| Present | Incomplete
 
 ## Priority Matrix
-![Priority Matrix](https://git.generalassemb.ly/zkhan14/About-Covid19-App/edit/master/Prioritymatrix.jpg?raw=true)
+![Priority Matrix](https://git.generalassemb.ly/zkhan14/About-Covid19-App/blob/master/Prioritymatrix.jpg?raw=true)
 
 ## Timeframes
 
