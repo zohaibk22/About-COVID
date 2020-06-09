@@ -48,7 +48,8 @@ WireFrame: https://wireframe.cc/pbKTLi
 
 - Animation for zoom functionality of Map
 - Incorperate a graph functionality to display COVID-19 statistics over time. (Requires a second APU)
-- Utlize an API to quote the victims the experience of COVID-19 patients
+- Utlize an API to quote the experiences of COVID-19 patients
+- Media Query for mobile app.
 
 ## Project Schedule
 
@@ -67,15 +68,16 @@ Include a full list of features that have been prioritized based on the `Time an
 
 ## Timeframes
 
-Tell us how long you anticipate spending on each area of development. Be sure to consider how many hours a day you plan to be coding and how many days you have available until presentation day.
-
-Time frames are also key in the development cycle.  You have limited time to code all phases of the game.  Your estimates can then be used to evalute game possibilities based on time needed and the actual time you have before game must be submitted. It's always best to pad the time by a few hours so that you account for the unknown so add and additional hour or two to each component to play it safe. Throughout your project, keep track of your Time Invested and Actual Time and update your README regularly.
-
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
 | HTML Structure | H | 1.5hrs|  |  |
 | CSS Styles| H | 3hrs|  |  |
-| Implement Map functionality | 4hrs
+| Implement Map | H | 4hrs|
+| Map Click Functionality| H | 4hrs|
+| Implement API to read COVID-19 Statistics| H | 4hrs|
+| Incorperation of graphs based upon COVID-19 API| H | 4hrs |
+| COVID-19 Symptoms and Remedies buttton | M | 2hrs |
+| Media Query for Mobile App Design | M | 2hrs |
 | Total | H | 6hrs| 5hrs | 5hrs |
 |
 
