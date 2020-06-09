@@ -36,15 +36,13 @@ WireFrame: https://wireframe.cc/pbKTLi
 ### MVP/PostMVP
 
 #### MVP 
-*These are examples only. Replace with your own MVP features.*
 
 - Display Worldwide Map
 - Countries on Map must have a click functionality
 - Display COVID-19 stastics of the selected country from the map
 - Must have the ability to view statistics of multiple countries
 
-#### PostMVP  
-*These are examples only. Replace with your own Post-MVP features.*
+#### PostMVP 
 
 - Animation for zoom functionality of Map
 - Incorperate a graph functionality to display COVID-19 statistics over time. (Requires a second APU)
@@ -64,7 +62,7 @@ WireFrame: https://wireframe.cc/pbKTLi
 
 ## Priority Matrix
 
-Include a full list of features that have been prioritized based on the `Time and Importance` Matrix.  Link this image in a similar manner to your wireframes
+![]()
 
 ## Timeframes
 
@@ -78,18 +76,13 @@ Include a full list of features that have been prioritized based on the `Time an
 | Incorperation of graphs based upon COVID-19 API| H | 4hrs |
 | COVID-19 Symptoms and Remedies buttton | M | 2hrs |
 | Media Query for Mobile App Design | M | 2hrs |
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Total | H | 24.5hrs| hrs | hrs |
 |
 
 ## Code Snippet
 
 Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
 
-```
-function reverse(string) {
-	// here is the code to reverse a string of text
-}
-```
 
 ## Change Log
  Use this section to document what changes were made and the reasoning behind those changes.
