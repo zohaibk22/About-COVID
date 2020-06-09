@@ -35,20 +35,20 @@ WireFrame: https://wireframe.cc/pbKTLi
 
 ### MVP/PostMVP
 
-The functionality will then be divided into two separate lists: MPV and PostMVP.  Carefully decided what is placed into your MVP as the client will expect this functionality to be implemented upon project completion.  
-
 #### MVP 
 *These are examples only. Replace with your own MVP features.*
 
-- Find and use external api 
-- Render data on page 
-- Allow user to choose favorites 
+- Display Worldwide Map
+- Countries on Map must have a click functionality
+- Display COVID-19 stastics of the selected country from the map
+- Must have the ability to view statistics of multiple countries
 
 #### PostMVP  
 *These are examples only. Replace with your own Post-MVP features.*
 
-- Add second API
-- Use local storage to save user favorites
+- Animation for zoom functionality of Map
+- Incorperate a graph functionality to display COVID-19 statistics over time. (Requires a second APU)
+- Utlize an API to quote the victims the experience of COVID-19 patients
 
 ## Project Schedule
 
