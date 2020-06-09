@@ -4,7 +4,7 @@
 
 ## Project Description
 
-The "About-COVID-19-App" will be an educational website about Covid 19. It will utilize a API pulling from a database with the number of covid-19 cases worldwide, splitting them into objects with keys organized by Country. The API will be incorperated with a worldwide map feature that the user will be able interact with. The end-user will be able to click on a country on the map and be presented with coronavirus statistics related to the country they selected. Coronavirus statistics will include total reported cases, total deaths, total active cases, and total recovered cases.
+The "About-COVID-19-App" will be an educational website about Covid 19. It will utilize a API pulling from a database with the number of COVID-19 cases worldwide, splitting them into objects with keys organized by Country. The API will be incorperated with a worldwide map feature that the user will be able interact with. The end-user will be able to click on a country on the map and be presented with coronavirus statistics related to the country they selected. Coronavirus statistics will include the total reported cases, total deaths, total active cases, and total recovered cases.
 
 ## API and Data Sample
 
@@ -48,7 +48,7 @@ WireFrame: https://wireframe.cc/pbKTLi
 - Incorperate a graph functionality to display COVID-19 statistics over time. (Requires a second APU)
 - Utlize an API to quote the experiences of COVID-19 patients
 - Media Query for mobile app.
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+
 ## Project Schedule
 
 |  Day | Deliverable | Status
@@ -57,7 +57,7 @@ WireFrame: https://wireframe.cc/pbKTLi
 |June 9| Front-End Core Design (HTML/CSS) | Incomplete
 |June 10| Code in Event Listener for Symptoms/Remedies. Implement Map| Incomplete
 |June 11| Code Event Listener for Map to display COVID-19 stastics from API| Incomplete
-|June 12| Make Finalize touchs. Complete MVP. Work on POSTMVP | Incomplete
+|June 12| Make Final touches. Complete MVP. Work on POSTMVP | Incomplete
 |June 15| Present | Incomplete
 
 ## Priority Matrix
