@@ -1,13 +1,34 @@
 # Project Overview
 
-## About-Covid-19 App
+## About-COVID-19 App
 
 ## Project Description
 
-The "About-Covid-19-App" will be an educational website about Covid 19. It will utilize a API pulling from a database with the number of covid-19 cases worldwide, splitting them into objects with keys organized by Country. The API will be incorperated with a worldwide map feature that the user will be able interact with. The end-user will be able to click on a country on the map and be presented with coronavirus statistics related to the country they selected. Coronavirus statistics will include total reported cases, total deaths, total active cases, and total recovered cases.
+The "About-COVID-19-App" will be an educational website about Covid 19. It will utilize a API pulling from a database with the number of covid-19 cases worldwide, splitting them into objects with keys organized by Country. The API will be incorperated with a worldwide map feature that the user will be able interact with. The end-user will be able to click on a country on the map and be presented with coronavirus statistics related to the country they selected. Coronavirus statistics will include total reported cases, total deaths, total active cases, and total recovered cases.
 
 ## API and Data Sample
 
+GetPostman API URL: https://documenter.getpostman.com/view/10808728/SzS8rjbc?version=latest#9739c95f-ef1d-489b-97a9-0a6dfe2f74d8
+
+```
+[
+  {
+  "Country": "United States of America",
+    "CountryCode": "",
+    "Province": "",
+    "City": "",
+    "CityCode": "",
+    "Lat": "0",
+    "Lon": "0",
+    "Confirmed": 1942363,
+    "Deaths": 110514,
+    "Recovered": 506367,
+    "Active": 1325482,
+    "Date": "2020-06-07T00:00:00Z"
+  }
+]
+
+```
 Specify the API you are using and include a link. Show us a snippet of JSON returned by your API so we know you can access it and get the info you need
 
 ## Wireframes
