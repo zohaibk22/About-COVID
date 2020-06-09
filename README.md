@@ -61,7 +61,7 @@ WireFrame: https://wireframe.cc/pbKTLi
 |June 15| Present | Incomplete
 
 ## Priority Matrix
-![alt text](https://git.generalassemb.ly/zkhan14/About-Covid19-App/edit/master/Priority-matrix.jpg?raw=true)
+![Priority Matrix](https://git.generalassemb.ly/zkhan14/About-Covid19-App/edit/master/Prioritymatrix.jpg?raw=true)
 
 ## Timeframes
 
