@@ -1,0 +1,114 @@
+/* General Information */
+
+.general-info-title {
+  position: absolute;
+  top: 100px;
+  color: white;
+  left: 10%;
+  font-size: 5vw;
+}
+
+.quotes {
+  display: inline-block;
+  margin: 20px 100px;
+  top: 15%s;
+  text-align: center;
+  font-size: 1vw;
+}
+
+.last-quote {
+  margin: 10px auto;
+  top: 15%s;
+  font-size: 1vw;
+  text-align: center;
+}
+
+.general-img {
+  height: 90vh;
+  width: 100vw;
+  filter: brightness(50%);
+}
+
+.general-information {
+  height: 100vh;
+  position: relative;
+  background-color: #aacfcf;
+}
+
+/* Intro Page */
+
+.intro {
+  height: 100vh;
+  background-color: black;
+}
+
+h1 {
+  position: relative;
+  margin: 0px;
+  color: white;
+  font-size: 15vw;
+  transform: rotate(20deg);
+  text-align: center;
+  top: 25%;
+  bottom: 50%;
+  font-family: "Jacques Francois Shadow", cursive;
+}
+
+.heading {
+  color: white;
+  top: 30%;
+  bottom: 30%;
+  font-size: 2vw;
+}
+.paragraph {
+  color: white;
+  height: 100px;
+  width: 500px;
+  top: 30%;
+  bottom: 30%;
+  font-size: 0.9vw;
+}
+
+.description {
+  position: relative;
+  left: 5%;
+}
+/* Header */
+
+header {
+  height: 5vh;
+  background-color: #aacfcf;
+  position: relative;
+}
+
+.nav {
+  display: inline-block;
+  list-style-type: none;
+  margin: 0px 20px;
+}
+
+.header-list {
+  position: absolute;
+  margin: 0px;
+  padding: 0px;
+  right: 20px;
+  top: 50%;
+  bottom: 50%;
+}
+
+/*  */
+
+body {
+  margin: 0px;
+  font-family: "Marcellus SC", serif;
+}
+
+.countries-affected {
+  height: 100vh;
+  background-color: black;
+}
+
+footer {
+  height: 5vh;
+  background-color: #aacfcf;
+}
