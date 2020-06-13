@@ -51,6 +51,10 @@
   background-image: url("https://upload.wikimedia.org/wikipedia/commons/c/ca/Flag_of_Iran.svg");
 }
 
+.hide-flag {
+  background-image: initial;
+}
+
 /* Countries Affected */
 .countries-affected {
   position: relative;

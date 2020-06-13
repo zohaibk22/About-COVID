@@ -58,12 +58,16 @@ const getCountryData = async (country) => {
     //console.log(countryName);
 
     //all Append method requests
-    cardDiv.append(totalDeaths);
-    cardDiv.append(recoveredCases);
-    cardDiv.append(activeCases);
-    cardDiv.append(totalCases);
-    cardDiv.append(countryName);
-    countryDiv.append(cardDiv);
+    if (countryDiv.firstChild) {
+      countryDiv.removeChild(countryDiv.firstChild);
+    } else {
+      cardDiv.append(totalDeaths);
+      cardDiv.append(recoveredCases);
+      cardDiv.append(activeCases);
+      cardDiv.append(totalCases);
+      cardDiv.append(countryName);
+      countryDiv.append(cardDiv);
+    }
 
     //console.log(dataArray);
   } catch (error) {
@@ -79,9 +83,19 @@ buttonUs.addEventListener("click", () => {
   getCountryData("us");
 });
 
+// const buttonBrazil = document.querySelector(".brazil");
+// buttonBrazil.addEventListener("click", () => {
+//   buttonBrazil.style.backgroundImage = "none";
+//   getCountryData("brazil");
+// });
+
 const buttonBrazil = document.querySelector(".brazil");
 buttonBrazil.addEventListener("click", () => {
-  buttonBrazil.style.backgroundImage = "none";
+  if (buttonBrazil.className === "country brazil hide-flag") {
+    buttonBrazil.className = "country brazil";
+  } else {
+    buttonBrazil.className = "country brazil hide-flag";
+  }
   getCountryData("brazil");
 });
 
@@ -132,6 +146,11 @@ buttonIran.addEventListener("click", () => {
   buttonIran.style.backgroundImage = "none";
   getCountryData("iran");
 });
+
+function noOverLap() {
+  const buttonRemove = document.querySelector(".country");
+  buttonRemove.removeEventListener("click");
+}
 
 //const mostRecentDate = new DataCue(Math.max.apply(null));
 
