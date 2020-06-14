@@ -4,15 +4,15 @@
   color: white;
 }
 .country {
-  border: 1px solid white;
+  border: 2px solid white;
   height: 20vh;
   width: 20vw;
-  background-size: cover;
+  background-size: 100% 100%;
   background-repeat: no-repeat;
 }
 
 .us {
-  background-image: url("https://upload.wikimedia.org/wikipedia/en/a/a4/Flag_of_the_United_States.svg");
+  background-image: url("https://cdn.webshopapp.com/shops/94414/files/54958906/the-united-states-flag-image-free-download.jpg");
 }
 
 .brazil {
@@ -74,6 +74,23 @@
 
 /* General Information */
 
+.symptomsDiv {
+  position: absolute;
+  height: 20vh;
+  width: 20vw;
+  top: 45%;
+  left: 20%;
+  background-color: beige;
+  border-radius: 20%;
+  border: 2px solid black;
+}
+
+.symptoms {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+}
+
 .general-info-title {
   position: absolute;
   top: 100px;
@@ -109,6 +126,9 @@
   background-color: #aacfcf;
 }
 
+.displayNothingDiv {
+  display: none;
+}
 /* Intro Page */
 
 .intro {
