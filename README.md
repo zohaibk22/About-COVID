@@ -4,7 +4,7 @@
 
 ## Project Description
 
-The "About-COVID-19-App" will be an educational website about Covid 19. It will utilize a API pulling from a database with the number of COVID-19 cases worldwide, splitting them into objects with keys organized by Country. The API will be incorperated with a worldwide map feature that the user will be able interact with. The end-user will be able to click on a country on the map and be presented with coronavirus statistics related to the country they selected. Coronavirus statistics will include the total reported cases, total deaths, total active cases, and total recovered cases.
+The "About-COVID-19-App" will be an educational website about Covid 19. It will utilize a API pulling from a database with the number of COVID-19 cases worldwide, splitting them into objects with keys organized by Country. Through the use of the API, the website will display the top 10 countries with COVID-19 cases around the world. The end-user will be able to click on an image of the country flag, which will then trigger an evenListener that will dipslay the COVID-19 stastics surrounding that specific country. These stastistics  will include the total reported cases, total deaths, total active cases, and total recovered cases.
 
 ## API and Data Sample
 
@@ -78,8 +78,20 @@ WireFrame: https://wireframe.cc/pbKTLi
 |
 
 ## Code Snippet
+```
 
-Use this section to include a brief code snippet of functionality that you are proud of and a brief description.  
+let countryDataCovid = response1.data;
+
+    let dataArray = new Array();
+
+    countryDataCovid.forEach((element, i) => {
+      dataArray.push(countryDataCovid[i]);
+    });
+
+    let lastInput = new Array();
+    lastInput.push(dataArray.pop());  
+    
+ ```
 
 
 ## Change Log
