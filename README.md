@@ -37,27 +37,26 @@ WireFrame: https://wireframe.cc/pbKTLi
 
 #### MVP 
 
-- Display Worldwide Map
-- Countries on Map must have a click functionality
-- Display COVID-19 stastics of the selected country from the map
-- Must have the ability to view statistics of multiple countries
+- Display Top ten countries with Coronavirus cases
+- Countries flag must have click functionality
+- Display COVID-19 stastics of the selected country
+- Must have the ability to view statistics of multiple countries with refresh of page
 
 #### PostMVP 
 
-- Animation for zoom functionality of Map
-- Incorperate a graph functionality to display COVID-19 statistics over time. (Requires a second APU)
-- Utlize an API to quote the experiences of COVID-19 patients
+-  Add button functionality to display some common symptoms and remedies of COVID-19
+- Incorperate dynamic Flag functionality. Incorperate update functionality that continuously checks for countries with the highest Covid-19 cases (Requires a second APU)
 - Media Query for mobile app.
 
 ## Project Schedule
 
 |  Day | Deliverable | Status
 |---|---| ---|
-|June 8| Project Prompt/Project Proposal | Incomplete
-|June 9| Front-End Core Design (HTML/CSS) | Incomplete
-|June 10| Code in Event Listener for Symptoms/Remedies. Implement Map| Incomplete
-|June 11| Code Event Listener for Map to display COVID-19 stastics from API| Incomplete
-|June 12| Make Final touches. Complete MVP. Work on POSTMVP | Incomplete
+|June 8| Project Prompt/Project Proposal | Complete
+|June 9| Front-End Core Design (HTML/CSS) | Complete
+|June 10| Code in Event Listener for Symptoms/Remedies. Implement Map| Complete
+|June 11| Code Event Listener for Flags to display COVID-19 stastics from API| Complete
+|June 12| Make Final touches. Complete MVP. Work on POSTMVP | Complete
 |June 15| Present | Incomplete
 
 ## Priority Matrix
