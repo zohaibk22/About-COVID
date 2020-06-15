@@ -66,14 +66,14 @@ WireFrame: https://wireframe.cc/pbKTLi
 
 | Component | Priority | Estimated Time | Time Invested | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| HTML Structure | H | 1.5hrs|  |  |
-| CSS Styles| H | 3hrs|  |  |
-| Implement Map | H | 4hrs|
-| Map Click Functionality| H | 4hrs|
-| Implement API to read COVID-19 Statistics| H | 4hrs|
-| Incorperation of graphs based upon COVID-19 API| H | 4hrs |
-| COVID-19 Symptoms and Remedies buttton | M | 2hrs |
-| Media Query for Mobile App Design | M | 2hrs |
+| HTML Structure | H | 1.5hrs| 0.5 hrs  | 0.5 hrs |
+| CSS Styles| H | 3hrs| 4 hrs | 4 hrs  |
+| Implement Flags | H | 4hrs| 2.5 hrs | 2.5 hrs|
+| Flag Click Functionality| H | 4hrs| 3 hrs | 3 hrs|
+| Implement API to read COVID-19 Statistics| H | 4hrs| 1.5 hrs| 1.5 hrs |
+| Toggle functionality between flag and COVID-19 statistics | H | 4hrs | 3 hrs | 3 hrs|
+| COVID-19 Symptoms and Remedies buttton | M | 2hrs | 3 hrs | 3 hrs|
+| Media Query for Mobile App Design | M | 2hrs | 2 hrs| 2 hrs|
 | Total | H | 24.5hrs| hrs | hrs |
 |
 
