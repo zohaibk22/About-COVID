@@ -74,7 +74,7 @@ WireFrame: https://wireframe.cc/pbKTLi
 | Toggle functionality between flag and COVID-19 statistics | H | 4hrs | 3 hrs | 3 hrs|
 | COVID-19 Symptoms and Remedies buttton | M | 2hrs | 3 hrs | 3 hrs|
 | Media Query for Mobile App Design | M | 2hrs | 2 hrs| 2 hrs|
-| Total | H | 24.5hrs| hrs | hrs |
+| Total | H | 24.5hrs| 21 hrs | 21 hrs |
 |
 
 ## Code Snippet
@@ -95,4 +95,5 @@ let countryDataCovid = response1.data;
 
 
 ## Change Log
- Use this section to document what changes were made and the reasoning behind those changes.
+
+After meeting with team lead for project approvals, the original project idea was slighly altered. Instead of creating a map of all countries exhibiting COVID-19 exposure, i would just be documenting the top 10 countries  with COVID-19 exposure. Additionally, instead of a displaying a map of countries, I would end up displaying the flags of the respective countries. Once the end-user would click on a country flag, it would display a div of COVID-19  statistics regarding the respective country.
