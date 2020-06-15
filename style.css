@@ -113,6 +113,7 @@ footer {
   background-color: beige;
   border-radius: 20%;
   border: 5px solid black;
+  font-size: 0.9vw;
 }
 
 .displayNothing {
@@ -128,6 +129,7 @@ footer {
   background-color: beige;
   border-radius: 20%;
   border: 5px solid black;
+  font-size: 0.65vw;
 }
 
 .remediesButton {
@@ -146,7 +148,7 @@ footer {
   width: 7vw;
   border-radius: 20%;
   border: 2px solid black;
-  font-size: 1.5vh;
+  font-size: 1.3vw;
   background-color: #900c3f;
   color: beige;
   transition-duration: 0.4s;
@@ -187,6 +189,7 @@ button:hover {
 }
 
 #general-information {
+  position: relative;
   height: 100vh;
   position: relative;
   background-color: #aacfcf;
@@ -269,4 +272,177 @@ a:hover {
 body {
   margin: 0px;
   font-family: "Marcellus SC", serif;
+}
+
+@media all and (max-width: 600px) {
+  /* Footer */
+  footer {
+    height: 5vh;
+    background-color: #aacfcf;
+    text-align: center;
+  }
+
+  .footer-img {
+    height: 2vh;
+    width: 4vw;
+    margin-top: 0.5vh;
+    margin-right: 1vh;
+  }
+
+  .symbol {
+    margin-top: 0.7vh;
+  }
+
+  /* Country Flag divs */
+
+  .country-info {
+    color: white;
+    text-align: center;
+    font-size: 1vh;
+  }
+  .country {
+    border: 2px solid white;
+    height: 20vh;
+    width: 20vw;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    transition-delay: 0s;
+  }
+  /* Countries Affected */
+  #countries-affected {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    height: 100vh;
+    background-color: black;
+  }
+
+  .countries-title {
+    /* position: absolute; */
+    color: white;
+    margin: 0px;
+    font-size: 7vw;
+    text-align: center;
+  }
+
+  /* General Information */
+
+  .remediesDiv {
+    position: absolute;
+    height: 20vh;
+    width: 40vw;
+    top: 65%;
+    left: 30%;
+    background-color: beige;
+    border-radius: 20%;
+    border: 5px solid black;
+    font-size: 2.5vw;
+  }
+
+  .displayNothing {
+    display: none;
+  }
+
+  .symptomsDiv {
+    position: absolute;
+    height: 20vh;
+    width: 40vw;
+    top: 30%;
+    left: 30%;
+    background-color: beige;
+    border-radius: 20%;
+    border: 5px solid black;
+    font-size: 2.5vw;
+  }
+
+  .remediesButton {
+    top: 55%;
+    left: 45%;
+  }
+
+  .symptomsButton {
+    top: 20%;
+    left: 45%;
+  }
+
+  .button {
+    position: absolute;
+    height: 7vh;
+    width: 15vw;
+    border-radius: 20%;
+    border: 2px solid black;
+    font-size: 2vw;
+    background-color: #900c3f;
+    color: beige;
+    transition-duration: 0.4s;
+  }
+
+  button:hover {
+    background-color: white;
+    color: black;
+  }
+
+  .general-info-title {
+    position: absolute;
+    top: 2%;
+    color: white;
+    left: 10%;
+    font-size: 7vw;
+    text-align: center;
+  }
+
+  .quotes {
+    display: block;
+    margin: 20px 100px;
+    top: 15%s;
+    text-align: center;
+    font-size: 2vw;
+  }
+
+  .last-quote {
+    margin: 10px auto;
+    top: 15%s;
+    font-size: 2vw;
+    text-align: center;
+  }
+
+  .general-img {
+    height: 90vh;
+    width: 100vw;
+    filter: brightness(50%);
+  }
+
+  #general-information {
+    position: relative;
+    height: 100vh;
+    position: relative;
+    background-color: #aacfcf;
+  }
+
+  .displayNothingDiv {
+    display: none;
+  }
+
+  /* Intro Section */
+  #intro {
+    height: 100vh;
+    background-color: black;
+  }
+
+  h1 {
+    transform: rotate(40deg);
+  }
+
+  .heading {
+    top: 35%;
+    font-size: 5vw;
+  }
+  .paragraph {
+    top: 35%;
+    font-size: 3vw;
+  }
 }
