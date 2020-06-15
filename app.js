@@ -8,23 +8,15 @@ const getCountryData = async (country) => {
     const response2 = await axios.get(`${API2}${country}`);
 
     let countryDataCovid = response1.data;
-    console.log(countryDataCovid.Country);
 
     let dataArray = new Array();
 
     countryDataCovid.forEach((element, i) => {
       dataArray.push(countryDataCovid[i]);
-      // console.log(element);
     });
-
-    //console.log(dataArray);
 
     let lastInput = new Array();
     lastInput.push(dataArray.pop());
-
-    console.log(lastInput);
-
-    //console.log(lastInput[0].Country);
 
     //Creating Div to store country info
     const countryDiv = document.querySelector(`.${country}`);
@@ -53,23 +45,17 @@ const getCountryData = async (country) => {
     const totalDeaths = document.createElement("p");
     totalDeaths.innerText = `Total Deaths: ${lastInput[0].Deaths} People`;
 
-    console.log("i was clicked");
-
-    //console.log(countryName);
-
     //all Append method requests
     if (countryDiv.firstChild) {
       countryDiv.removeChild(countryDiv.firstChild);
     } else {
-      cardDiv.append(totalDeaths);
-      cardDiv.append(recoveredCases);
-      cardDiv.append(activeCases);
-      cardDiv.append(totalCases);
       cardDiv.append(countryName);
+      cardDiv.append(totalCases);
+      cardDiv.append(activeCases);
+      cardDiv.append(recoveredCases);
+      cardDiv.append(totalDeaths);
       countryDiv.append(cardDiv);
     }
-
-    //console.log(dataArray);
   } catch (error) {
     console.log(`I'm sorry, there was an error: ${error}`);
   }
@@ -177,36 +163,76 @@ buttonIran.addEventListener("click", () => {
   getCountryData("iran");
 });
 
-const getSymptoms = function () {
-  const symptomsArray = [
-    "Fever or Chills",
-    "Cough",
-    "Shortness of Breath",
-    "Fatigue",
-    "Muscle",
-    "Headache",
-    "Loss of Taste and/or Smell",
-    "Sore Throat",
-    "Congestion or Runny Nose",
-    "Nausea or Vomiting",
-    "Diarrhea",
-  ];
-  const parentDiv = document.querySelector(".general-information");
-  const symptomsDiv = document.createElement("div");
+const symptomsArray = [
+  "Fever or Chills",
+  "Cough",
+  "Shortness of Breath",
+  "Fatigue",
+  "Muscle Ache",
+  "Headache",
+  "Loss of Taste and/or Smell",
+  "Sore Throat",
+  "Congestion or Runny Nose",
+  "Nausea or Vomiting",
+  "Diarrhea",
+];
+
+const remediesArray = [
+  "Drink tons of Fluids",
+  "Avoid Alcohol",
+  "Get Plenty of Rest",
+  "Take over-the-counter Medicine",
+  "Stay Quarantined",
+  "Only go outside for medical purposes",
+  "Limit contact with other  people or animals",
+];
+
+const processArray = function (array, parentDivs, uLClassName) {
+  const symptomsArray = array;
+
+  const parentDiv = document.querySelector(`.${parentDivs}`);
   const symptomsUl = document.createElement("ul");
 
   symptomsArray.forEach((element, i) => {
-    let symptomsListItems = (document.createElement("li").innerText =
-      symptomsArray[i]);
+    let symptomsListItems = document.createElement("Li");
+    symptomsListItems.innerHTML = symptomsArray[i];
+    symptomsListItems.className = `${uLClassName}`;
+
     symptomsUl.append(symptomsListItems);
   });
 
-  symptomsDiv.append(symptomsUl);
-  parentDiv.append(symptomsDiv);
+  parentDiv.appendChild(symptomsUl);
 };
-//getSymptoms();
 
-const symptomsButton = document.querySelector(".symptoms");
+const symptomsButton = document.querySelector(".symptomsButton");
+const remediesButton = document.querySelector(".remediesButton");
+
 symptomsButton.addEventListener("click", () => {
-  getSymptoms();
+  const symptomsDiv = document.querySelector(".symptomsDiv");
+  if (symptomsDiv.className === "symptomsDiv displayNothing") {
+    symptomsDiv.className = "symptomsDiv";
+  } else {
+    symptomsDiv.className = "symptomsDiv displayNothing";
+  }
+  removeUl("symptomsDiv");
+  processArray(symptomsArray, "symptomsDiv", "list-items");
 });
+
+remediesButton.addEventListener("click", () => {
+  const remediesDiv = document.querySelector(".remediesDiv");
+  if (remediesDiv.className === "remediesDiv displayNothing") {
+    remediesDiv.className = "remediesDiv";
+  } else {
+    remediesDiv.className = "remediesDiv displayNothing";
+  }
+  removeUl("remediesDiv");
+  processArray(remediesArray, "remediesDiv", "list-items");
+});
+
+function removeUl(div) {
+  const parentDiv = document.querySelector(`.${div}`);
+
+  if (parentDiv.firstChild) {
+    parentDiv.removeChild(parentDiv.firstChild);
+  }
+}

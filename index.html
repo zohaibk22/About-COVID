@@ -22,13 +22,17 @@
   <body>
     <header>
       <ul class="header-list">
-        <li class="nav">Home</li>
-        <li class="nav">General Information</li>
-        <li class="nav">Countries Affected</li>
+        <li class="nav"><a href="#intro">Home</a></li>
+        <li class="nav">
+          <a href="#general-information">General Information</a>
+        </li>
+        <li class="nav">
+          <a href="#countries-affected">Countries Affected</a>
+        </li>
       </ul>
     </header>
     <main>
-      <div class="intro">
+      <div id="intro">
         <h1>COVID-19</h1>
         <h3 class="description heading">What is COVID-19?</h3>
         <p class="description paragraph">
@@ -40,7 +44,7 @@
           2019 (COVID-19)" - <em>George Department of public Health</em>.
         </p>
       </div>
-      <div class="general-information">
+      <div id="general-information">
         <img
           class="general-img"
           src="https://images.unsplash.com/photo-1532938911079-1b06ac7ceec7?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2378&q=80"
@@ -49,9 +53,11 @@
 
         <h2 class="general-info-title">What Should You Know?</h2>
 
-        <div class="symptomsDiv"></div>
+        <button class="button symptomsButton">Symptoms</button>
+        <button class="button remediesButton">Remedies</button>
 
-        <button class="symptoms">Symptoms</button>
+        <div class="symptomsDiv displayNothing"></div>
+        <div class="remediesDiv displayNothing"></div>
 
         <p class="quotes">
           "I had a fever, I was shaking, I had body aches and a bad cough."
@@ -67,7 +73,7 @@
           <em> - Amy Bobchek</em>
         </p>
       </div>
-      <div class="countries-affected">
+      <div id="countries-affected">
         <h2 class="countries-title">Top Countries Affected by COVID-19</h2>
         <div class="country us"></div>
         <div class="country brazil"></div>
@@ -81,6 +87,22 @@
         <div class="country iran"></div>
       </div>
     </main>
-    <footer>Div 5</footer>
+    <footer>
+      <a href="https://github.com/zohaibk22/">
+        <img
+          class="footer-img"
+          src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/github_fpykxh.png"
+          alt="Github"
+        />
+      </a>
+      <a href="https://www.linkedin.com/in/zohaib-khan-10221997/">
+        <img
+          class="footer-img"
+          src="https://res.cloudinary.com/briandanger/image/upload/v1568954107/linkedin_vnvo6s.png"
+          alt="LinkedIn"
+        />
+      </a>
+      <p class="symbol">© 2020 Zohaib Khan.</p>
+    </footer>
   </body>
 </html>

@@ -1,7 +1,26 @@
+/* Footer */
+footer {
+  height: 5vh;
+  background-color: #aacfcf;
+  text-align: center;
+}
+
+.footer-img {
+  height: 2vh;
+  width: 2vw;
+  margin-top: 0.5vh;
+  margin-right: 1vh;
+}
+
+.symbol {
+  margin-top: 0.7vh;
+}
 /* Country Flag divs */
 
 .country-info {
   color: white;
+  text-align: center;
+  font-size: 1.5vh;
 }
 .country {
   border: 2px solid white;
@@ -9,6 +28,12 @@
   width: 20vw;
   background-size: 100% 100%;
   background-repeat: no-repeat;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+  transition-delay: 0s;
+}
+.country:hover {
+  background-color: #900c3f;
 }
 
 .us {
@@ -56,12 +81,14 @@
 }
 
 /* Countries Affected */
-.countries-affected {
+#countries-affected {
   position: relative;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
+  height: 100vh;
+  background-color: black;
 }
 
 .countries-title {
@@ -74,26 +101,65 @@
 
 /* General Information */
 
+.list-items {
+}
+
+.remediesDiv {
+  position: absolute;
+  height: 20vh;
+  width: 20vw;
+  top: 55%;
+  right: 20%;
+  background-color: beige;
+  border-radius: 20%;
+  border: 5px solid black;
+}
+
+.displayNothing {
+  display: none;
+}
+
 .symptomsDiv {
   position: absolute;
   height: 20vh;
   width: 20vw;
-  top: 45%;
+  top: 55%;
   left: 20%;
   background-color: beige;
   border-radius: 20%;
-  border: 2px solid black;
+  border: 5px solid black;
 }
 
-.symptoms {
-  position: absolute;
+.remediesButton {
   top: 40%;
-  left: 25%;
+  right: 27%;
+}
+
+.symptomsButton {
+  top: 40%;
+  left: 27%;
+}
+
+.button {
+  position: absolute;
+  height: 6vh;
+  width: 7vw;
+  border-radius: 20%;
+  border: 2px solid black;
+  font-size: 1.5vh;
+  background-color: #900c3f;
+  color: beige;
+  transition-duration: 0.4s;
+}
+
+button:hover {
+  background-color: white;
+  color: black;
 }
 
 .general-info-title {
   position: absolute;
-  top: 100px;
+  top: 2%;
   color: white;
   left: 10%;
   font-size: 5vw;
@@ -120,7 +186,7 @@
   filter: brightness(50%);
 }
 
-.general-information {
+#general-information {
   height: 100vh;
   position: relative;
   background-color: #aacfcf;
@@ -131,7 +197,7 @@
 }
 /* Intro Page */
 
-.intro {
+#intro {
   height: 100vh;
   background-color: black;
 }
@@ -150,17 +216,17 @@ h1 {
 
 .heading {
   color: white;
-  top: 30%;
+  top: 20%;
   bottom: 30%;
   font-size: 2vw;
 }
 .paragraph {
   color: white;
-  height: 100px;
-  width: 500px;
-  top: 30%;
+  height: 10vh;
+  width: 30vw;
+  top: 20%;
   bottom: 30%;
-  font-size: 0.9vw;
+  font-size: 1vw;
 }
 
 .description {
@@ -181,6 +247,14 @@ header {
   margin: 0px 20px;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
 .header-list {
   position: absolute;
   margin: 0px;
@@ -195,14 +269,4 @@ header {
 body {
   margin: 0px;
   font-family: "Marcellus SC", serif;
-}
-
-.countries-affected {
-  height: 100vh;
-  background-color: black;
-}
-
-footer {
-  height: 5vh;
-  background-color: #aacfcf;
 }
