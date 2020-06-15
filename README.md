@@ -70,7 +70,7 @@ WireFrame: https://wireframe.cc/pbKTLi
 | CSS Styles| H | 3hrs| 4 hrs | 4 hrs  |
 | Implement Flags | H | 4hrs| 2.5 hrs | 2.5 hrs|
 | Flag Click Functionality| H | 4hrs| 3 hrs | 3 hrs|
-| Implement API to read COVID-19 Statistics| H | 4hrs| 1.5 hrs| 1.5 hrs |
+| Implement API to read COVID-19 Statistics| H | 4hrs| 3 hrs| 3 hrs |
 | Toggle functionality between flag and COVID-19 statistics | H | 4hrs | 3 hrs | 3 hrs|
 | COVID-19 Symptoms and Remedies buttton | M | 2hrs | 3 hrs | 3 hrs|
 | Media Query for Mobile App Design | M | 2hrs | 2 hrs| 2 hrs|
